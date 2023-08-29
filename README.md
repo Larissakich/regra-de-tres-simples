@@ -1,4 +1,4 @@
-# Regra de Três Simples Calculator
+# Calculadora de Regra de Três Simples
 
 Este repositório contém uma calculadora de Regra de Três Simples desenvolvida em HTML, CSS e JavaScript. 
 A calculadora permite calcular a quarta variável em uma proporção diretamente proporcional entre três valores conhecidos. A interface é simples e intuitiva, tornando fácil o cálculo de proporções.
