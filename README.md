@@ -3,6 +3,9 @@
 Este repositório contém uma calculadora de Regra de Três Simples desenvolvida em HTML, CSS e JavaScript. 
 A calculadora permite calcular a quarta variável em uma proporção diretamente proporcional entre três valores conhecidos. A interface é simples e intuitiva, tornando fácil o cálculo de proporções.
 
+## Visualize o projeto
+(https://larissakich.github.io/regra-de-tres-simples/).
+
 ## Como Usar
 
 1. Clone ou faça o download deste repositório.
