@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root {
+    --color-primary-1: #ffe53bd8;
+    --color-primary-2: #ff6a25da;
+
+    --color-neutral-1: #e5e7eb;
+    --color-neutral-2:#343434;
+    --color-neutral-3: #262626;
+
+    --linear-gradient: linear-gradient(120deg, var(--color-primary-1), var(--color-primary-2));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--linear-gradient);
+}
+
+.calculator {
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.323);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin: 25px 0px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group input {
+    background-color: var(--color-neutral-2);
+    color: var(--color-neutral-1);
+    padding: 8px;
+    border: 1px solid var(--color-primary-1);
+    border-radius: 4px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-group input:focus-visible {
+    outline: transparent;
+}
+
+.input-group span {
+    background-color: var(--color-neutral-2);
+    padding: 0px 15px;
+}
+
+.input-group p {
+    background: var(--linear-gradient);
+    border-radius: 4px;
+    padding: 10px;
+    width: 100px;
+}
+
+.input-text {
+    margin: 15px 0px;
+}
+
+#calculate {
+    background: var(--linear-gradient);
+    border: none;
+    color: var(--color-neutral-1);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color .5s ease;
+}
+
+#calculate:hover {
+    background-color: var(--color-primary-2);
+}
