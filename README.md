@@ -11,7 +11,7 @@ A calculadora permite calcular a quarta variável em uma proporção diretamente
 1. Clone ou faça o download deste repositório.
 
 ```bash
-git clone https://github.com/seu-usuario/regra-de-tres-calculator.git
+git clone https://github.com/Larissakich/regra-de-tres-simples.git
 ```
 
 ## Funcionalidades
